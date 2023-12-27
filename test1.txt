@@ -1,1 +1,17 @@
 Сенчилов Максим
+
+
+#include <iostream>
+
+int main() {
+    setlocale(LC_ALL, "RU");
+    int num;
+    std::cout << "Введите число: ";
+    std::cin >> num;
+    if (num >= 19) {
+        std::cout << "Число " << num << " больше, либо равно 19";
+    }
+    else {
+        std::cout << num << " число меньше 19";
+    }
+}
